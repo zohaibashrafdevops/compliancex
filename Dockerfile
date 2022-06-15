@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 MAINTAINER zohaib.ashraf@eurustechnologies.com
 RUN apt install -y httpd  \
   zip  \
