@@ -1,5 +1,5 @@
-FROM centos:latest
-MAINTAINER technical.cloud@gmail.com
+FROM ubuntu:18.04
+MAINTAINER zohaib.ashraf@eurustechnologies.com
 RUN yum install -y httpd  \
   zip  \
   unzip
