@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/centos:7
+FROM public.ecr.aws/amazonlinux/amazonlinux:latest
 MAINTAINER zohaib.ashraf@eurustechnologies.com
 RUN yum update -y \
 && yum install -y httpd  zip unzip 
