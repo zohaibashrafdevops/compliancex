@@ -17,5 +17,5 @@ spec:
         paths:
           - path: /*
             backend:
-              serviceName: "service-2048"
+              serviceName: "cicd"
               servicePort: 80
