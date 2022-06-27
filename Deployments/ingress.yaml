@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: instance
     alb.ingress.kubernetes.io/backend-protocol: HTTP
-    alb.ingress.kubernetes.io/subnets: subnet-0381217f249a1a5b3 ,subnet-0b75d6764687c8db1
+    alb.ingress.kubernetes.io/subnets: subnet-04d20cbc04e531aef ,subnet-0607ab244b6301036
   labels:
     app: cicd
 spec:

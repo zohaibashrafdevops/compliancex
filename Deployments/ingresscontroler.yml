@@ -36,11 +36,11 @@ spec:
             # Name of your cluster. Used when naming resources created
             # by the ALB Ingress Controller, providing distinction between
             # clusters.
-            - --cluster-name=EKS-Cluster22
+            - --cluster-name=EKS-Cluster
 
             # AWS VPC ID this ingress controller will use to create AWS resources.
             # If unspecified, it will be discovered from ec2metadata.
-            - --aws-vpc-id=vpc-02008af541d5664d6
+            - --aws-vpc-id=vpc-09a7d37615bd3e351
 
             # AWS region this ingress controller will operate in.
             # If unspecified, it will be discovered from ec2metadata.
